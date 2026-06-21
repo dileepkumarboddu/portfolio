@@ -12,7 +12,7 @@ function Footer() {
       </p>
 
       <p>
-        © 2027 All Rights Reserved
+        © 2026 All Rights Reserved
       </p>
 
     </footer>
