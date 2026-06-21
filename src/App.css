@@ -211,3 +211,103 @@ footer h3 {
   justify-content: center;
   align-items: center;
 }
+/* =========================
+   Mobile Responsive Design
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 25px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  /* Sections */
+  section {
+    padding: 60px 20px;
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Cards */
+  .card {
+    padding: 20px;
+  }
+
+  /* Contact */
+  form {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Small Mobile Devices */
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h3 {
+    font-size: 1rem;
+  }
+
+  .hero img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
